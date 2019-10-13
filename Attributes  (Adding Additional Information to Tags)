@@ -1,0 +1,18 @@
+Attributes (Adding Additional Information to Tags) 
+(FORMAT: Key="value" [also called key, value pair])
+<tag name="value"> </tag>
+
+
+<img src="corgi.png">
+<p class="selected"> woof woof</p>
+<a href="www.google.com">Click me to go to Google</a>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+Reference to Attributes
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+
+Tags
+<img src=""> used  to insert images in webpage --- ex: <img src="img.jpg"> --- no need to close this tag
+<a> (anchor tag) --- used to insert links or link pages --- syntax:  <a href=""> </a>--- ex: <a href="https://www.google.com">Click here </a> --- it's an inline element  
+--- both kind of src in <a> tag --- one is relative , another is universal(https)
