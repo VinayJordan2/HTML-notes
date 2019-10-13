@@ -1,0 +1,83 @@
+
+MDN <table> reference link
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+
+<table>
+<tr>
+<td> <td>
+<tr> 
+</table>
+
+<thead>
+<tbody>
+check Pokemon assignment
+
+The <form> tag
+<form action="/my-form-submiting-page" method="post"> 
+<!-- All our inputs will go in here -->
+</form>
+
+~action - the URL to send form data to
+~method - the type of HTTP request
+
+Until we cover Back End JS, our forms won't actually do anything
+
+The <input> tag
+The Input tag creates interactive controls. The "type" attribute determines the type of input
+
+<input type="text">
+<input type="date">
+<input type="color">
+<input type="file">
+<input type="checkbox">
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+A Simple Form
+<h1> Sign In </h1>
+
+<form action="/sign-in-url" method="post">
+<input type="text">
+<input type="password">
+<button> Login </button>
+</form>
+
+The <form> tag
+<form action="/sign-in-url" method="post">
+<label>
+Username:
+<input type="text" placeholder="username">
+</label>
+<label>
+Password:
+<input type="password" placeholder="password">
+</label>
+<button> Login </button>
+</form>
+
+<!-- Alternate syntax, using "for" and "id" attributes -->
+
+<form action="/sign-in-url" method="post">
+<label for="username"> Username: </label>
+<input id="username" type="text"> (the id and for should match)
+<label for="password"> Password: </label>
+<input id="password" type="password">
+<button> Login </button>
+</form>
+
+  `````````````````````````````````````````````
+Simple Validations
+> The 'required' attribute validates that an input is not empty
+> There are also type validations. Try changing "type" from "text" to "email"
+> one is presents validation
+> one is data type validation (ex: an email should look like email/ or the email format)
+
+<form action="/sign-in-url" method="post">
+<label for="email"> Email: </label>
+<input id="email" type="email" required>
+
+<label for="password"> Password: </label>
+<input id="password" type="password" required>
+<button> Login </button>
+</form>
+
