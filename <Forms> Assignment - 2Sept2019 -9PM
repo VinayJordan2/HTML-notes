@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<!-- radio button-->
+<!-- select tag-->
+<!-- textarea tag-->
+<html>
+<head>
+<title> Form Assignment </title>
+</head>
+<body>
+
+<h1> Register </h1>
+<form action="">
+<!-- Name -->
+<label for="FName">
+First Name:
+</label>
+<input name="Fname" id="Fname" type="text" placeholder="John" required>
+
+<label for="LName">
+Last Name:</label>
+<input name="Lname" id="Lname" type="text" placeholder="Smith" required>
+<!-- Gender -->
+<p> <label for="Male">
+Male
+</label>
+<input name="Gender" id="Male" type="radio" value="Male">
+
+<label for="Female">
+Female
+</label>
+<input name="Gender" id="Female" type="radio" value="Female">
+
+<label for="Other">
+Other
+</label>
+<input name="Gender" id="Other" type="radio" value="Other"> </p>
+<!-- email and pword -->
+<label for="Email:">
+Email
+</label>
+<input name="enail" id="Email" type="email" placeholder="your email" required> 
+
+<label for="Password">
+Other
+</label>
+<input minlength="5" maxlength="10" name="Password" id="Password" type="text" placeholder="your password" required> </p>
+
+<!-- Birthday -->
+<!-- <label for="Birthday">
+Birthday:
+</label>
+<input name="Gender" id="Other" type="radio" value="Other"> </p> -->
+<!-- <input type="checkbox"> --> 
+
+<p>Birthday:
+<select name="Month" id="month" Placeholder="month"> <!-- select tag creates a dropdown menu -->
+<option value="rose"> January </option> <!-- option tag is needed to input what data to select -->
+<option value="naranja"> February </option> <!--value tag is used to show the clicked result in URL or post -->
+<option value="sunflower"> March </option>
+</select>
+<select name="Day" id="" Placeholder="day"> 
+<option value="rose"> 1 </option> 
+<option value="naranja"> 2 </option>
+<option value="sunflower"> 3 </option>
+</select>
+</select>
+<select name="Year" id="" Placeholder="year"> 
+<option value="rose"> 1996 </option> 
+<option value="naranja"> 2001 </option>
+<option value="sunflower"> 2007 </option>
+</select> </p>
+<p> I agree to thte terms and conditions <input type="checkbox"> </p>
+<!-- <input type="text"> -->
+<!-- <textarea name="paragraph" id="" cols="7" rows="3"></textarea> -->
+<button> Submit </button>
+<!-- if there's a button at the end of the form, it'll submit -->
+</form>
+</form>
+</body>
+</html>
