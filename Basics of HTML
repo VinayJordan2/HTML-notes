@@ -1,0 +1,61 @@
+HTML is like the noun
+CSS is like adjectives
+JavaScript is like verbs
+
+Online HTML editor
+https://jsbin.com/?html,output
+https://jsfiddle.net/api/mdn/
+
+MDN (Mozilla Developer Network) -> https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+
+Attributes
+Elements can also have attributes, which look like this:
+
+Attributes contain extra information about the element which you don't want to appear in the actual content. In this case, the class attribute allows you to give the element an identifying name that can be later used to target the element with style information and other things.
+
+An attribute should have:
+
+1. A space between it and the element name (or the previous attribute, if the element already has one or more attributes).
+2. The attribute name, followed by an equal sign.
+3. An attribute value, with opening and closing quote marks wrapped around it.
+
+Comments
+To turn a section of content inside your HTML file into a comment, you need to wrap it in the special markers <!-- and -->, for example:
+<!-- This is a comment. It doesn't do anything -->
+
+Boilerplate
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- metadata goes in head -->
+
+<title> </title>
+</head>
+<body>
+
+<!-- content goes in the body -->
+     
+<h1>This is my first tag!!!</h1>
+</body>
+</html>
+
+Being a developer is also about 'Googling' 'how to' for a lot of stuff
+
+
+HTML Elements -> https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+<!DOCTYPE html> says that the Doc uses HTML5
+<html>  is the root element (it's a must)
+<body> 
+
+-> Lorem Ipsum
+-> Block level elements and Inline elements
+> H1 to H6 and <p> are block line
+- <Strong> and <em> are inline elements
+> 2 kinds of lists
+- Ordered (1. 2. etc) -> Tag is <ol> <li> </li> </ol>
+- Unordered (bullet points) -> Tag is <ul> <li> </li> </ul>
+
+- <div> and <spans> -> allow you to group content together
+- <div> is a block level element
+- <span> is an inline element
