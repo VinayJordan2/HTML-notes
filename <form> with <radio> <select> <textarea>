@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<!-- radio button-->
+<!-- select tag-->
+<!-- textarea tag-->
+<html>
+<head>
+<title>Inputs Demo</title>
+</head>
+<body>
+
+<p> Do you prefer cats or dogs? </p>
+<form action="">
+<label for="dogs">Dogs:</label>
+<input name="petChoice" id="dogs "type="radio" value="DOGS">
+
+<label for="cats">Cats:</label>
+<input name="petChoice" id="cats" type="radio" value="CATS">
+<!-- <input type="checkbox"> -->
+
+<p> What's your Favorite Color?</p>
+<select name="Color" id=""> <!-- select tag creates a dropdown menu -->
+<option value="rose"> Red </option> <!-- option tag is needed to input what data to select -->
+<option value="naranja"> Orange </option> <!--value tag is used to show the clicked result in URL or post -->
+<option value="sunflower"> Yellow </option>
+</select>
+
+<!-- <input type="text"> -->
+<textarea name="paragraph" id="" cols="7" rows="3"></textarea>
+<button> Go! </button>
+<!-- if there's a button at the end of the form, it'll submit -->
+</form>
+</form>
+</body>
+</html>
